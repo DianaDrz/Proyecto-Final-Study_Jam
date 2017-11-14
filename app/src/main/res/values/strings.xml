@@ -2,14 +2,43 @@
     <string name="app_name">Proyecto-Final-Study_Jam</string>
     <string name="p1">Intruducción</string>
     <string name="p2">Teoria</string>
-    <string name="p3">Escalas</string>
-    <string name="p4">Acordes</string>
-    <string name="p5">Tablaturas</string>
-    <string name="p6">Ejercicios</string>
+    <string name="p3">Acordes</string>
+    <string name="p4">Escalas</string>
+    <string name="p5">Información</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_main3">Main3Activity</string>
     <string name="section_format2">Hello World from section: %1$d</string>
     <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="estructura">CLAVIJERO: Su función es la de sostener y tensar las cuerdas, para ello consta de un mecanismo compuesto por un tornillo -sin fin- que hace girar un eje, girando las clavijas, donde van enrolladas las cuerdas. Está situado en el extremo del diapasón, es sobre este que vienen las cuerdas para atarse. Su</string>
+    <string name="estructura2">CUERDAS: La guitarra clásica, al igual que la eléctrica, consta de seis cuerdas que toman su nombre según el sonido que producen cuando se tocan al aire y se enumeran desde abajo hacia arriba -tomando como referencia la posición normal de coger la guitarra para tocar-, de la siguiente forma tocándolas al aire I Cuerda: E (Mi agudo) II Cuerda: B (Si) III Cuerda: G (Sol) IV Cuerda: D (Re) V Cuerda: A (La) VI Cuerda: E (Mi grave)</string>
+    <string name="estructura3">TRASTES: el traste es la separación que existe en el diapasón del mástil de la guitarra, en forma de tiras de metal incrustadas en el diapasón.</string>
+    <string name="estructura4">MÁSTIL Y DIAPASÓN: el diapasón es una pieza, normalmente de ébano, alargada de forma aplanada que cubre el Mástil, éste tiene una o dos ranuras en las que encajan en la caja y es de madera dura de arce, por la parte frontal. </string>
+    <string name="estructura5">CAJA DE RESONANCIA O CUERPO : la caja de resonancia o cuerpo es la parte principal y fundamental de las guitarras españolas y acústicas, está formado por la Tapa Superior o Tapa Armónica, la Tapa Inferior y los Costados.</string>
+    <string name="estructura6">PUENTE: es una pieza alargada y estrecha situada sobre la Tapa Superior a cierta distancia de la Boca. Es donde se fijan las cuerdas antes de colocarlas y tensarlas en el clavijero.</string>
+    <string name="estructura7">PASTILLA O MICRÓFONO : Dispositivo con un bobinado de alambre delgado que transforma el sonido en señales eléctricas. Las pastillas se controlan mediante un Selector (o conmutador) de dos o tres vías, que permite usar una u otra, o dos a la vez. También tienen un control de volumen y otro de tono.</string>
+    <string name="po1">POSICIONES PARA TOCAR GUITARRA</string>
+    <string name="po2">Posición normal: apoya la cintura de la guitarra en tu pierna derecha y coloca tu antebrazo derecho sobre el borde de la caja y un poco inclinado hacia arriba. No peques la guitarra a tu estomago.Inclina un poco la parte superior de la guitarra hacia adentro para que no tengas que inclinarte demasiado para ver donde pones los dedos de ambas manos</string>
+    <string name="po3">Posición normal: Apoya la cintura de la guitarra en la pierna izquierda, con el mastil inclinado hacia arriba, de manera que la mano izquierda llegue con facilidad al diapason</string>
+    <string name="po4">Psicion de Pie:Cualquier guitarrra se puede tocar de pie colgandola con una correa. Es importante que el instrumento cuelgue con el peso hacia el cuerpo y con buen centro de gravedad.</string>
+    <string name="a1">COMO AFINAR LA GUITARRA</string>
+    <string name="a2">Para empezar a comprender qué es lo que hacemos al afinar nuestro instrumento, es crucial que comprendamos que el sistema de afinación se basa en una serie de premisas físicas del sonido (no entraremos en detalles demasiado técnicos), y que el sistema de música occidental precisamente parte del enfoque de su afinación.</string>
+    <string name="a3">En una guitarra de 7 cuerdas, el estándard es casi el mismo, con la diferencia de que la 7ª cuerda se afina como la segunda (un B), pero dos octavas por debajo del mismo. La relación sería la misma que hay entre el E agudo y el E grave de la primera y la sexta cuerdas (dos octavas de diferencia), y el resto de la guitarra permanece igual (B-E-A-D-G-B-E)Después tenemos afinaciones iguales a la estandard, pero que consisten en rebajar un semitono o un tono la afinación en todas las cuerdas.Así, una afinación en Eb sería aquella en la que bajamos un semitono a todas las cuerdas (Eb-Ab-Db-Gb-Bb-Eb) y podríamos hacer lo mismo bajando un tono y afinando en D (D-G-C-F-A-D), en Db, C...</string>
+    <string name="n1">NOTAS MUSICALES</string>
+    <string name="n2">La música tiene su propio lenguaje y en lugar de signos alfabéticos emplea notas, las cuales forman parte de la escala musical, también conocida como escala diatónica. Las notas son sonidos y cada sonido tiene un nombre y para representar las notas musicales en una escala se utiliza el pentagrama, que son cinco líneas horizontales y paralelas entre sí donde se escriben todas las notas y notaciones relacionadas con la pieza musical.</string>
+    <string name="s1">SILENCIOS</string>
+    <string name="s2">En música un silencio o pausa es un signo que representa gráficamente la duración de una determinada pausa en una pieza musical. La manera gráfica de indicar la duración relativa de un silencio es mediante la utilización de una serie de símbolos diversos cuyos rasgos se modifican, como por ejemplo la ubicación en el pentagrama o el número de ganchos que tienen.</string>
+    <string name="b1">BEMOLES</string>
+    <string name="b2">Un bemol es una alteración que tiene el efecto contrario al sostenido. Si  alteramos la nota Re mediante un sostenido obtendremos re sostenido (re#)  qué será un semitono más alto que el re. Si alteramos el re mediante un bemol tendremos un re bemol (reb) ,  que suena un semitono más grave que el re. Por lo tanto re# y reb  serán notas  con un sonido diferente y que también es diferente del re natural.</string>
+    <string name="ma1">ACORDES MAYORES</string>
+    <string name="ma2"></string>
+    <string name="me1">ACORDES MENORES</string>
+    <string name="st">La aplicacion GuitarBasic esta dirigida a todo tipo de personas que desean aprender a tocar guitarra, brinda informacion sobre teoria musical  </string>
+
+
+
+
+
 
 </resources>

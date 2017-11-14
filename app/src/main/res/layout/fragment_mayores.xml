@@ -4,20 +4,37 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/colorf"
     tools:context="com.diana_gdgandroidbolivia.proyecto_final_study_jam.MayoresFragment">
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mayores"
-            android:layout_marginTop="32dp"
-            android:layout_marginLeft="80sp"
-            android:textStyle="italic"
-            />
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="90sp"
+                    android:layout_marginTop="32dp"
+                    android:text="@string/ma1"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="90dp"
+                    android:src="@drawable/aa1" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
 
 </FrameLayout>

@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.diana_gdgandroidbolivia.proyecto_final_study_jam.MainActivity">
+    tools:context="com.diana_gdgandroidbolivia.proyecto_final_study_jam.MainActivity"
+    android:background="@drawable/d">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,6 +23,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bienvenido a GuitarBasic"
+                    android:gravity="center_horizontal"
+                    android:textSize="28dp"
+                    android:textColor="#f1111112"
+                    android:layout_marginTop="15dp"/>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -41,6 +51,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/p1"
                         android:layout_gravity="center_horizontal"
+                        android:background="@drawable/boton"
+                        android:layout_marginTop="50dp"
                         android:onClick="accion"
                         />
                     <Button
@@ -50,6 +62,7 @@
                         android:text="@string/p2"
                         android:layout_gravity="center_horizontal"
                         android:paddingTop="5dp"
+                        android:background="@drawable/boton"
                         android:onClick="accion1"
 
                         />
@@ -60,6 +73,7 @@
                         android:text="@string/p3"
                         android:layout_gravity="center_horizontal"
                         android:paddingTop="5dp"
+                        android:background="@drawable/boton"
                         android:onClick="accion2"
 
                         />
@@ -70,7 +84,8 @@
                         android:text="@string/p4"
                         android:layout_gravity="center_horizontal"
                         android:paddingTop="5dp"
-                        android:onClick="accion4"
+                        android:background="@drawable/boton"
+                        android:onClick="accion3"
 
                         />
                     <Button
@@ -80,18 +95,11 @@
                         android:text="@string/p5"
                         android:layout_gravity="center_horizontal"
                         android:paddingTop="5dp"
-                        android:onClick="accion5"
+                        android:background="@drawable/boton"
+                        android:onClick="accion4"
 
                         />
-                    <Button
-                        android:id="@+id/boton7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/p6"
-                        android:layout_gravity="center_horizontal"
-                        android:onClick="accion6"
-                       
-                        />
+
 
                 </LinearLayout>
             </LinearLayout>

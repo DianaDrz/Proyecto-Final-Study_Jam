@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="GuitarBasic"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ico_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -31,8 +31,16 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main4Activity"
+            android:label="ACORDES"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main5Activity"
             android:label="ESCALAS"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".InformacionActicity"
+            android:label="Informacion" />
+
     </application>
 
 </manifest>

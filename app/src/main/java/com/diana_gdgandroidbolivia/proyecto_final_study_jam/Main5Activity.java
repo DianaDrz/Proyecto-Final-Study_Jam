@@ -15,7 +15,8 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class Main3Activity extends AppCompatActivity {
+public class Main5Activity extends AppCompatActivity {
+
 
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
@@ -24,20 +25,22 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main5);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar3);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar5);
         setSupportActionBar(toolbar);
 
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        mViewPager = (ViewPager) findViewById(R.id.container3);
+
+        mViewPager = (ViewPager) findViewById(R.id.container5);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs3);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs5);
         tabLayout.setupWithViewPager(mViewPager);
 
     }
+
 
     public static class PlaceholderFragment extends Fragment {
         private static final String ARG_SECTION_NUMBER = "section_number";
@@ -56,8 +59,8 @@ public class Main3Activity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main3, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label3);
+            View rootView = inflater.inflate(R.layout.fragment_main5, container, false);
+            TextView textView = (TextView) rootView.findViewById(R.id.section_label5);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
         }
@@ -73,14 +76,11 @@ public class Main3Activity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    NotasFragment notasFragment=new NotasFragment();
-                    return notasFragment;
+                    AcorMayoresFragment acorMayoresFragment=new AcorMayoresFragment();
+                    return acorMayoresFragment;
                 case 1:
-                    SilenciosFragment silenciosFragment=new SilenciosFragment();
-                    return silenciosFragment;
-                case 2:
-                    BemolesFragment bemolesFragment=new BemolesFragment();
-                    return bemolesFragment;
+                    AcorMenoresFragment acorMenoresFragment=new AcorMenoresFragment();
+                    return acorMenoresFragment;
 
             }
             return null;
@@ -88,23 +88,19 @@ public class Main3Activity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 3;
+            return 2;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Notas";
+                    return "Mayores";
                 case 1:
-                    return "Silencios";
-                case 2:
-                    return "Bomoles";
-
+                    return "Menores";
             }
             return null;
         }
     }
+
 }
-
-

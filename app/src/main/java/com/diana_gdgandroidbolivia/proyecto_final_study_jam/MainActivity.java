@@ -1,11 +1,13 @@
 package com.diana_gdgandroidbolivia.proyecto_final_study_jam;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+    MediaPlayer sonido;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,4 +26,13 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this,Main4Activity.class);
         startActivity(i);
     }
+    public void accion3 (View view){
+        Intent i=new Intent(this,Main5Activity.class);
+        startActivity(i);
+    }
+    public void accion4 (View view){
+        Intent i=new Intent(this,InformacionActicity.class);
+        startActivity(i);
+    }
+
 }
