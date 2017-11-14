@@ -6,28 +6,28 @@ Proyecto Final - Study Jam II 2016
     </center>
 </div>
 
-Repositorio Proyecto Final del Study Jam Android Development for Beginners II 2016, llevado a cabo en la ciudad de La Paz, Bolivia a cargo del <a target="_blank" href="http://www.gdg.androidbolivia.com">GDG Android Bolivia</a> .
+Repositorio Proyecto Final del Study Jam Android Development for Beginners II 2017, llevado a cabo en la ciudad de La Paz, Bolivia a cargo del <a target="_blank" href="http://www.gdg.androidbolivia.com">GDG Android Bolivia</a> .
 
 Nombre Aplicación.
 ---
-El nombre de la aplicación es: Christmas Tones
+El nombre de la aplicación es: GuitarBasic
 
 Objetivo
 ---
-Ofrecer una lista de tonos, para poder seleccionarlos como tono de llamada, tono de mensaje, y tono de alarma.
+Dirigida a todo tipo de personas que deseen aprender a tocar guitarra, la aplicion brinda informacion sobre teoria musical.
 
 Caracteristicas
 ---
-* Lista de 19 canciones para elegir.
-* Control de produccion.
-* Boton para elegir el destino de la cancion.
-* El destino de la cancion puede ser, tono de llamada, tono de mensaje, y tono de alarma.
+* Menu de informacion
+* cada boton lleva a diferentes tabs
+* cada fragmento contiene informacion para aprender a tocar guitarra
+
 
 Wireframes
 ---
 Puedes visualizar los Wireframes de este proyecto.
 
-https://ninjamock.com/s/N1M3G
+https://ninjamock.com/Designer/Workplace/21629752/Page2
 
 Compatibilidad
 ---
@@ -56,7 +56,7 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
                 <td> </td>
             </tr>
             <tr>
-                <td><img src="/img/im.gif" width="300"></td>
+                <td><img src="/img/cap.png" width="300"></td>
             </tr>
             <tr>
                 <td> </td>
@@ -81,20 +81,20 @@ En este proyecto de utilizáron los siguientes componentes tanto en el `diseño`
 .
 
 **`Funcionalidad:`**
-* MediaPlayer, para reproducir y detener las canciones.
-* CustomAdapter, para la manipulacion de listas.
+* tabsLayout
+* RecyclerView, para la lista personalizada.
 * Animation, para insertar las animaciones.
+*fragments
 .
 .
 .
 
 Autor(a)
 ---
-Antonio Roberto Aguilar Heredia
+Thalia Dayana Ruiz Samo
 
 Contactos
 ---
-aguilarheredia87@gmail.com<br>
-Telf. +591 70122404<br>
+Diana.ciberdrz@gmail.com<br>
+Telf. +591 61143400<br>
 La Paz - Bolivia<br>
-[Facebook](https://www.facebook.com/aguilarheredia)
